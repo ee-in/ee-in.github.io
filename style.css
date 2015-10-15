@@ -1,0 +1,193 @@
+* {
+    margin: 2.5%;
+    padding:2.5%;
+}
+
+CSS selector {
+  font-family: 'Font Name', serif;
+}
+
+.clear {
+    clear: both;
+ }
+
+ #header {
+ 	z-index: 1;
+ 	position: fixed;
+ 	width: 97.5%;
+ 	margin-top: -20px;
+ 	height: 60px;
+ 	background-color: #a0a0a0;
+ 	margin-bottom: 10px;
+ }
+
+ #name {
+ 	float:left;
+ 	margin-left: 5px;
+ 	padding-top: 5px;
+ 	font-size: 16px;
+ 	font-family: Avenir Next, 'Calibri', Verdana, sans-serif;
+ 	color: #ffffff;
+ }
+
+ #email{
+ 	float:right;
+ 	margin-right: 5px;
+ 	padding-top: 5px;
+ 	font-size: 16px;
+ 	font-family: Avenir Next, 'Calibri', Verdana, sans-serif;
+ 	color: #ffffff;
+ }
+
+#page-wrap {
+    width: 800px;
+    margin: 40px auto 60px;
+ }
+#pic {
+    float: right;
+    margin: -30px 0 0 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Ubuntu', Verdana, sans-serif;
+    background: url(images/noise.jpg);
+ }
+
+h1 {
+    margin: 0 0 16px 0;
+    padding: 0 0 16px 0;
+    font-size: 42px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    letter-spacing: -2px;
+    border-bottom: 1px solid #999;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 0 6px 0;
+    position: relative;
+}
+
+h2 span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-style: italic;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: #999;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 0 6px 0;
+    position: relative;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 0 6px 0;
+    position: relative;
+}
+
+h5 {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 0 6px 0;
+    position: relative;
+}
+
+h6 {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 0 6px 0;
+    position: relative;
+}
+
+p {
+    margin: 0 0 16px 0;
+    font-family: 'Droid Serif',  Serif;
+    font-size: 16px;
+    color: #999;
+    font-weight: normal;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+    border-bottom: 1px dotted #999;
+}
+
+a:hover {
+    border-bottom-style: solid;
+    color: black;
+}
+
+li {
+	list-style-type: disc;
+}
+
+ul {
+    margin: 0 0 32px 17px;
+}
+
+ol {
+    margin: 0 0 32px 17px;
+}
+
+#objective {
+    width: 500px;
+    float: left;
+}
+
+#objective p {
+    font-family: 'Cambria', Georgia, Serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #666;
+}
+
+dt {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+    padding: 0 26px 0 0;
+    width: 150px;
+    float: left; height:
+    100px;
+    border-right: 1px solid #999;
+}
+
+dd {
+    width: 600px;
+    float: right;
+}
+
+dd.clear {
+    float: none;
+    margin: 0;
+    height: 15px;
+}
+
+#footer {
+	position: relative;
+	height: 50px;
+	background-color: #ffffff;
+	clear: both;
+    font-size: 16px;
+    font-family: Avenir Next, 'Calibri', Verdana, sans-serif;
+	text-align: center;
+	color: #ffffff;
+}
+
+#footer p {
+	position: relative;
+	padding-top: 15px;
+}
